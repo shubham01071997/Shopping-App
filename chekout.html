@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping App</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/35c398e458.js"></script>
+</head>
+<body>
+    <div id="top-bar">
+        <div id="left-menu">
+            <div class="top">
+                <a href="index.html">SHOP<span id="spantext">LANE</span></a>
+            </div>
+            <div class="notop">
+                <a href="index.html#section-head1">Clothing</a>
+            </div>
+            <div class="notop">
+                <a href="index.html#section-head2">Accessories</a>
+            </div>
+       </div>
+       <div id="search-wrapper">
+            <i class="fas fa-search"></i>
+            <input type="text" name="search" id="search" size="30" placeholder="Seraching for Clothing and Accessories">
+       </div>
+       <div id="right-menu">
+           <div id="cart-wrapper">
+               <p id="count"></p>
+               <a href="chekout.html"><i class="fas fa-shopping-cart"></i></a>
+           </div>
+           <img class="img" src="https://test-hosting-8f9bf.web.app/assets/avatar.jpg"/>
+       </div>
+    </div>
+    <div id="content">
+    <div id="checkout">
+        <h1 id="main-head">Chekout</h1>
+        <h3>Total items:<span id="items"> </span></h1>
+        <div id="check-section1">
+            
+        </div>
+
+    </div>
+    <div id="amount">
+         <h3 class="section-heading">Total Amount</h3>
+         <p>Amount : Rs<span id="total-amount"></span></p>
+         <button id="place">Place Order</button>
+    </div>
+   
+</div>
+    <footer>
+        <div>
+            <p class="footer-heading">ONLINE STORE</p>
+            <a href="" class="flink">Men Clothing</a>
+            <a href="" class="flink">Women Clothing</a>
+            <a href="" class="flink">Men Accessories</a>
+            <a href="" class="flink">Women Accessories</a>
+        </div>
+        <div>
+            <p class="footer-heading">HELPFUL LINKS</p>
+            <a href="" class="flink">home</a>
+            <a href="" class="flink">about</a>
+            <a href="" class="flink">contact</a>
+        </div>
+        <div>
+            <p class="footer-heading">PARTNERS</p>
+            <a href="" class="flink">zara</a>
+            <a href="" class="flink">PANTALOONS</a>
+            <a href="" class="flink">levis</a>
+            <a href="" class="flink">usb</a>
+            <a href="" class="flink">+ Many More</a>
+        </div>
+        <div>
+            <p class="footer-heading">ADDRESS</p>
+            <p class="flink">BUILDING 101</p>
+            <p class="flink">CENTRAL AVENUE</p>
+            <p class="flink">LA - 902722</p>
+            <p class="flink">UNITED STATES</p>
+        </div>
+    </footer>
+
+    <script src="home.js"></script>
+    <script src="checkout.js"></script>
+</body>
+</html>

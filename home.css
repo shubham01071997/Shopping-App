@@ -1,0 +1,336 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.top{
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-right: 32px;
+    font-weight: 400;
+}
+
+.top > a {
+   text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+}
+#spantext{
+    font-weight: 400;
+}
+
+.notop > a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 32px;
+}
+#top-bar{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 2px 5px #ccc;
+    background-color: white;
+    position: fixed;
+    padding:10px;
+    top: 0;
+    left: 0;
+}
+#search-wrapper{
+        width: 100%;
+        max-width: 400px;
+        position: relative;
+}
+
+#search-wrapper > i {
+    position: absolute;
+    color: #999;
+    font-size: 18px;
+    top: 50%;
+    left: 18px;
+    transform: translateY(-50%);
+}
+#search{
+    width: 100%;
+    border: 1px solid rgb(245, 242, 242);
+    background-color: rgb(245, 242, 242);
+    box-sizing: border-box;
+    padding: 10px 24px 8px 48px;
+    color: black;
+    outline: none;
+}
+#left-menu{
+        display: inline-flex;
+        justify-content: start;
+        align-items: center;
+}
+#right-menu{
+ display: inline-flex;
+justify-content: end;
+align-items: center;
+}
+#cart-wrapper {
+    position: relative;
+    margin-right: 32px;
+}
+#count{
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: 600;
+    background-color: #009688;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+}
+.img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+}
+
+#check-section{
+    margin-left:auto;
+    margin-top:100px;
+    margin-right:auto;
+    width:1000px;
+   
+}
+
+#autoplay-section{
+    margin-left:auto;
+    margin-top:100px;
+    margin-right:auto;
+    width:1000px;
+    height:300px;
+}
+
+.imgg{
+    width: 1000px;
+    height: 300px;
+}
+
+#radio-button{
+    text-align: center;
+}
+/* image area */
+.section-head{
+    margin-left: 30px;
+    margin-top: 60px;
+}
+.container{
+    width:18%;
+    height:320px;
+    border:1px solid white;
+    display:inline-block;
+    margin-left:10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 5px;
+  }
+.info{
+    padding-left: 10px;
+    margin: 10px auto;
+    color: rgb(27, 25, 25);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+.infoh4{
+    padding-left: 10px;
+    margin: 10px auto;
+    font-size: 12px;
+    color: rgb(110, 110, 110);
+}
+
+.infoh5{
+    padding-left: 10px;
+    margin: 10px auto;
+    font-size: 15px;
+    letter-spacing: 0.8px;
+    color: #009688;
+}
+.img1{
+    width:100%;
+    height:200px;
+}
+
+.section1-margin{
+    margin-left:50px;
+    margin-bottom:50px;
+}
+.section2-margin{
+    margin-left:50px;
+    margin-bottom:100px;
+}
+
+/*footer */
+footer{
+    background-color: #1c1b1e;
+    display: flex;
+    justify-content: center;
+    padding:4% 8%;
+}
+.footer-heading{
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+.flink{
+    text-decoration: none;
+    color: #e7e7ce;
+    display: block;
+    margin-top: 12px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+footer > div {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/*product html*/
+#continer1{
+    display:flex;
+    margin-top:100px;
+    margin-left:50px;
+    padding-bottom: 8%;
+}
+
+.left-column1{
+    
+    width:40%;
+    height:500px;
+}
+.right-column1{
+    width:60%;
+    margin-left:30px;
+    margin-top:-40px
+}
+
+#h1-head{
+    font-size: 44px;
+    display:block;
+}
+#price{
+    color: #009688;
+    font-weight: bold;
+}
+#dpara{
+    font-weight: bold;
+}
+.image_preview{
+    width: 15%;
+    height: 30%;
+    padding: 4px;
+}
+#preview-section{
+    display:flex;
+}
+.image-border{
+    border:2px solid #009688;
+}
+.container-image-section{
+    width:100%;
+    height:500px;
+}
+.image_preview:hover{
+    cursor:pointer;
+}
+.phide{
+   display:none;
+}
+#btn-add-to-cart{
+background-color: #009688;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    padding: 15px 30px;
+    border-radius: 6px;
+    margin-top: 36px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+/*check out page*/
+#main-head {
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 30px
+}
+.checkout-card {
+    display: flex;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 5px;
+    background-color: white;
+    max-width: 600px;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+.checkout-product-img {
+    width: 80px;
+    min-width: 80px;
+    border-radius: 5px;
+    margin-right: 16px;
+}
+#place{
+    background-color: #009688;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    outline: none;
+    padding: 18px 36px;
+    border-radius: 6px;
+    margin-top: 36px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
+#content{
+    margin-top:100px;
+    margin-right:100px;
+    display: flex;
+    justify-content: start;
+}
+#checkout{
+    width:700px;
+    margin-left:150px;
+}
+#amount{
+    width: 50%;
+    height: fit-content;
+    margin-top: 150px;
+    margin-left: 3%;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px #ccc;
+    border-radius: 5px;
+    padding: 16px;
+}
+/* confirm */
+#confirm-detail{
+    margin-top: 100px;
+
+}
+#confim{
+    text-align: center;
+}
+#edyoda-logo{
+    width: 128px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
